@@ -1,0 +1,112 @@
+.gridContainer{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-areas: 
+    "image product-info"
+    "image product-info"
+    "image product-info"
+    "image product-info"
+    "image product-info"
+    "review product-info";
+    grid-template-columns: 600px 1fr;
+    row-gap: 10px;
+    column-gap: 4rem;
+}
+
+
+.star{
+    display: flex;
+    gap: 0.3rem;
+}
+
+
+
+.numberInput[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+  
+  .numberInput[type=number]::-webkit-inner-spin-button,
+  .numberInput[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+  }
+
+  
+  /*Review Component*/
+  .avatarContainer {
+    margin-right: 8px; /* Khoảng cách giữa ảnh và TextArea */
+  }
+  
+  .avatar {
+    width: 60px !important; 
+    height: 60px !important; 
+    border-radius: 50%; 
+    object-fit: contain; 
+  }
+
+.reviewButton{
+  display: inline-block;
+  background-color: #4BAF47;
+  color:#fff;
+  padding: 0.6rem 1rem;
+  border:1px solid #4BAF47;
+  border-radius: 0.3rem;
+  width: auto;
+  transition: all 0.3s;
+}
+
+.reviewButton:hover{
+  background-color: #fff;
+  border:1px solid #4BAF47;
+  color: #4BAF47;
+}
+
+
+/* Product Info Component*/
+.addToCartButton{
+  display: inline-block;
+  background-color: #fff;
+  color: #4BAF47;;
+  padding: 1rem 3rem;
+  border:1px solid #4BAF47;
+  border-radius: 0.3rem;
+  width: auto;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.addToCartButton:hover{
+  background-color: #4BAF47;
+  border:1px solid #4BAF47;
+  color: #fff;
+}
+
+  .commonButton{
+    display: inline-block;
+    background-color: #65cb62;
+    color:#fff;
+    padding: 1rem 2rem;
+    border:1px solid #4BAF47;
+    border-radius: 0.3rem;
+    width: auto;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.commonButton:hover{
+    background-color: #fff;
+    border:1px solid #4BAF47;
+    color: #4BAF47;
+}
+
+
+
+
+/*------------------*/

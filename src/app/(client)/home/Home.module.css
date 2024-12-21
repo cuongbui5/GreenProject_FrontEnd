@@ -1,0 +1,166 @@
+
+
+/* .container{
+    margin-top: 2rem;
+} */
+
+.image{
+    width: 100px;
+    object-fit: contain;
+    height: auto;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    padding: 10px;
+}
+
+.gridItem {
+    background: white;
+    padding: 0.8rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.serviceContainer{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.cards{
+    display: grid;
+    justify-items:center;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows:21rem;
+    gap: 1.2rem;
+}
+
+.cardItem{
+    padding: 1.5rem;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    justify-content: center;
+}
+
+
+.reviewerComment{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+}
+
+.reviewerName{
+    font-size: 1.5rem;
+}
+
+
+.blogInfoContainer{
+    display: grid;
+    grid-template-areas: 
+    "image1 image1 image2"
+    "image3 image4 image4";
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.2rem;
+    margin-bottom: 5rem;
+}
+
+.sliderBtn{
+    display: flex;
+    gap: 1rem;
+}
+
+.bestSellerContainer{
+    margin-bottom: 2rem;
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.2rem;
+    background-image: url('https://media-cdn-v2.laodong.vn/storage/newsportal/2023/8/26/1233821/Giai-Nhi-1--Nang-Tre.jpg');
+    background-position: center;
+}
+
+ .bestSellerCards{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0,1fr));
+    grid-template-rows: auto;
+    justify-content: center;
+    column-gap: 1rem;
+    overflow: hidden;
+}
+
+.bestSellerCardItem{
+    border-radius: 6px;
+    border-style: none;
+    padding: 1rem 0.6rem;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    border-radius: 6px;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: flex-end;
+} 
+
+.itemDescription{
+    white-space: nowrap;
+    text-overflow: ellipsis; 
+    overflow: hidden;
+    max-width:16rem;
+    color: #000;
+    font-weight: 600;
+}
+
+.commonButton{
+    display: inline-block;
+    background-color: #4BAF47;
+    color:#fff;
+    padding: 0.6rem 1rem;
+    border:1px solid #4BAF47;
+    border-radius: 0.3rem;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.commonButton:hover{
+    background-color: #fff;
+    border:1px solid #4BAF47;
+    color: #4BAF47;
+}
+
+.star{
+    display: flex;
+    gap: 0.3rem;
+}
+
+.star img{
+    width: 1rem;
+}
+
+.box {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    padding: 1.6rem; 
+}
+
+.boxContent {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.boxName {
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

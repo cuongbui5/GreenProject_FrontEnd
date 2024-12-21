@@ -1,0 +1,19 @@
+.ant-btn-primary {
+    background-color: #4BAF47; /* Màu đỏ */
+    border-color: #4BAF47; /* Màu đỏ cho viền nút */
+  }
+  
+  .ant-btn-primary:hover,
+  .ant-btn-primary:focus {
+    background-color: #4BAF47; /* Màu đỏ nhạt hơn khi hover */
+    border-color: #4BAF47; /* Màu đỏ nhạt hơn cho viền khi hover */
+  }
+  
+  .ant-btn {
+    border-radius: 4px; /* Điều chỉnh bo góc nút nếu cần */
+  }
+
+  .custom-button:hover {
+    background-color: rgba(75, 175, 71, 0.1); /* Màu nền nhạt hơn khi hover */
+    color: #4BAF47; /* Giữ màu chữ */
+  }
